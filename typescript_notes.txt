@@ -1,0 +1,56 @@
+===========  Introduction  ================
+
+TS -> Super Set of JavaScript
+
+1) supports static type //compiles while initilization
+2) Super Set of JavaScript
+3) requires node js platform
+4) file extensions ends with .ts extension
+
+
+Execution:
+
+.ts creation - > compilation -> .js files will be created ->node js platform execution will happen based on .js file
+
+Reason: Node js platform cannot understand type script
+
+javascript:
+
+string str = 123; //no error
+
+typescript:
+
+string str = 123; //error throws
+
+
+
+=============  Installation  ===============
+
+npm install --save-dev typescript - Installing type script modules into project
+
+npx tsc firsttest.ts - for compiling typescript file
+node firsttest.js - for executing .js file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
