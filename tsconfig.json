@@ -1,0 +1,97 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+
+    // ===========================
+    // File Layout
+    // ===========================
+
+    // Specifies the root folder containing your TypeScript files.
+    "rootDir": "./src",
+
+    // Specifies where compiled JavaScript files will be generated.
+    "outDir": "./dist",
+
+    // ===========================
+    // Environment Settings
+    // ===========================
+
+    // Specifies the JavaScript version to compile to.
+    "target": "ES2022",
+
+    // Module system used by Node.js.
+    "module": "CommonJS",
+
+    // Resolves modules the same way Node.js does.
+   // "moduleResolution": "node10",
+
+    // Enables compatibility with CommonJS modules.
+    "esModuleInterop": true,
+
+    // ===========================
+    // Type Checking
+    // ===========================
+
+    // Enables all strict type-checking options.
+    "strict": true,
+
+    // Reports possible undefined values when accessing arrays or objects.
+    "noUncheckedIndexedAccess": true,
+
+    // Differentiates between optional and undefined properties.
+    "exactOptionalPropertyTypes": true,
+
+    // ===========================
+    // Output Options
+    // ===========================
+
+    // Generates JavaScript source map files for debugging.
+    "sourceMap": true,
+
+    // Generates declaration (.d.ts) files.
+    "declaration": false,
+
+    // Generates source maps for declaration files.
+    "declarationMap": false,
+
+    // ===========================
+    // Performance
+    // ===========================
+
+    // Skips type checking of declaration files in node_modules.
+    "skipLibCheck": true
+
+    // ===========================
+    // Optional Settings (Uncomment if needed)
+    // ===========================
+
+    // "lib": ["ES2022"],
+
+    // "types": ["node"],
+    // Install using:
+    // npm install -D @types/node
+
+    // "noImplicitReturns": true,
+
+    // "noUnusedLocals": true,
+
+    // "noUnusedParameters": true,
+
+    // "noFallthroughCasesInSwitch": true,
+
+    // "allowJs": true,
+
+    // "checkJs": true
+  },
+
+  // Files that TypeScript should compile.
+  "include": [
+    "src/**/*.ts"
+  ],
+
+  // Files/folders ignored during compilation.
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
