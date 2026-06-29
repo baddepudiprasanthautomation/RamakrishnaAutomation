@@ -48,6 +48,9 @@ typescript allows static typing, helps in identifying early errors
 
 
 
+================= Data Types ==============
+
+
 
 
 
