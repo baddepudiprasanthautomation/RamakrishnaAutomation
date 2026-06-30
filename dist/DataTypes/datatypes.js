@@ -15,4 +15,7 @@ let marks = 57;
 console.log(age * price);
 let result = name + age;
 console.log("result of concatenation is " + typeof (result) + "   " + result);
+//boolean -> only stores only two values either true or false
+let status = true;
+let finalResult = false;
 //# sourceMappingURL=datatypes.js.map
