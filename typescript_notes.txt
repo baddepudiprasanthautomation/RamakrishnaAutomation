@@ -52,6 +52,13 @@ typescript allows static typing, helps in identifying early errors
 
 
 
+any: 
+unknown: 
+ why to use the typeof keyword before using unknown type variable ?
+ Ans: As Developers, we may know the current value, but typescript doesn't assume that.
+      unknown tells the compiler that the value could be of any type, so it requires type checking before its use.
+      this makes code safer, especially when dealing with API responses, user input or external data
+
 
 
 
