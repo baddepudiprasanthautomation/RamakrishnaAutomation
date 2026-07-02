@@ -60,6 +60,10 @@ unknown:
       this makes code safer, especially when dealing with API responses, user input or external data
 
 
+============== Return types ===============
+
+-> return type specifies what type of value a function returns. 
+-> It helps catch errors at compile time and makes your code easier to understand.
 
 
 
