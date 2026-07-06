@@ -30,4 +30,22 @@ function test(id) {
     // return id; ->compile error
 }
 console.log(test(123));
+//5. any return type -> any return type returns any type of data
+function testLogin() {
+    // return "Prasanth";
+    return 123;
+}
+console.log(testLogin());
+//6. unknown -> the function returns an unknown type. we must check its type before using it.
+function getData() {
+    //  return "Prasanth"
+    return true;
+}
+let data = getData();
+if (typeof data === "string") {
+    console.log(data.toUpperCase());
+}
+else {
+    console.log(data);
+}
 //# sourceMappingURL=returntypes.js.map
