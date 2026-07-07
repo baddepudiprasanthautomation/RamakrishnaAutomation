@@ -5,5 +5,6 @@ function goOutSide(footWear = "Paragon", season = "summer") {
     console.log("going outside with " + footWear + " In Season " + season);
 }
 goOutSide("Baata", "summer");
+goOutSide("Paragooooooooon");
 goOutSide();
 //# sourceMappingURL=defaultparameter.js.map
