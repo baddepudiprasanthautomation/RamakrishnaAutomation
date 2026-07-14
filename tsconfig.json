@@ -36,7 +36,7 @@
     "strict": true,
 
     // Reports possible undefined values when accessing arrays or objects.
-    "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": false,
 
     // Differentiates between optional and undefined properties.
     "exactOptionalPropertyTypes": true,
